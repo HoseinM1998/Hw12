@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Hw_12.Entities;
 
 namespace Hw_12.Service
 {
@@ -18,7 +19,7 @@ namespace Hw_12.Service
             _taskRepository = taskRepository;
         }
 
-        public void AddTask(string title, string description, DateTime timeToDone, int order) 
+        public void AddTask(string title, string description, DateTime timeToDone, int order, int userId) 
         {
             if (timeToDone <= DateTime.Now)
             {
@@ -35,13 +36,15 @@ namespace Hw_12.Service
                 TimeToDone = timeToDone,
                 Order = order,
                 State = EnumState.InPending,
+                UserID = userId
             };
             _taskRepository.Add(task);
         }
 
-        public List<Task> GetAllTasks()
+        public List<Task> GetAllTasks(int userId)
         {
-            var tasks = _taskRepository.GetAll();
+            
+            var tasks = _taskRepository.GetAll().Where(t => t.UserID == userId).ToList();
             foreach (var task in tasks)
             {
                 if (task.TimeToDone <= DateTime.Now && task.State == EnumState.InPending)
@@ -53,13 +56,22 @@ namespace Hw_12.Service
             return tasks.OrderBy(t => t.TimeToDone).ThenBy(t => t.Order).ToList();
         }
 
-        public Task GetTaskById(int taskId)
+        public Task GetTaskById(int taskId, int userId)
         {
-            return _taskRepository.Get(taskId);
+            var task = _taskRepository.Get(taskId);
+            if (task != null && task.UserID == userId)
+            {
+                return task;
+            }
+            else
+            {
+                throw new ArgumentException("NotFound Or NotCurrentUser");
+            }
         }
 
-        public void UpdateTask(int id, string title, string description, DateTime timeToDone, int order)
+        public void UpdateTask(int id, string title, string description, DateTime timeToDone, int order,int userId)
         {
+
             var task = _taskRepository.Get(id);
             if (task != null)
             {
@@ -76,19 +88,33 @@ namespace Hw_12.Service
                 task.Description = description;
                 task.TimeToDone = timeToDone;
                 task.Order = order;
+                task.UserID = userId;
+
                 _taskRepository.Update(task);
             }
 
         }
-        public void DeleteTask(int id)
+        public void DeleteTask(int id, int userId)
         {
+            var task = _taskRepository.Get(id);
+            if (task == null)
+            {
+                throw new ArgumentException("Not Found");
+            }
+
+            if (task.UserID != userId)
+            {
+                throw new Exception("You CanNot Delete TaskID");
+            }
+
             _taskRepository.Delete(id);
         }
-        public List<Task> SearchTasks(string title)
+        public List<Task> SearchTasks(string title,int userId)
         {
             try
             {
-                var tasks = _taskRepository.SearchTasksByTitle(title);
+                var tasks = _taskRepository.SearchTasksByTitle(title).Where(t => t.UserID == userId)
+                                   .ToList(); ;
                 return tasks;
             }
             catch (Exception ex)

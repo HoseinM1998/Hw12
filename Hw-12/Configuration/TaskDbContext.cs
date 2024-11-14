@@ -1,4 +1,5 @@
 ﻿
+using Hw_12.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hw_12.Configuration
@@ -6,6 +7,8 @@ namespace Hw_12.Configuration
     public class TaskDbContext : DbContext
     {
         public DbSet<Task> Tasks{ get; set;}
+        public DbSet<User> Users { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
