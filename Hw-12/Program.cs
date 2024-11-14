@@ -6,10 +6,8 @@ using Hw_12.Repositories;
 using Hw_12.Service;
 using System.Threading.Tasks;
 
-TaskRepository taskRepository = new TaskRepository();
-TaskService taskService = new TaskService(taskRepository);
-UserRepository userRepository = new UserRepository();
-UserService userService = new UserService(userRepository);
+TaskService taskService = new TaskService();
+UserService userService = new UserService();
 ProgressBar _progressBar = new ProgressBar();
 bool loggedIn = false;
 
@@ -36,7 +34,7 @@ while (true)
             try
             {
                 userService.Register(fullName, userName, password);
-                ColoredConsole.WriteLine("Successful.".DarkGreen());
+                ColoredConsole.WriteLine("Successful".DarkGreen());
             }
             catch (Exception ex)
             {
@@ -62,7 +60,7 @@ while (true)
                     break;
                 }
                 loggedIn = true;
-                ColoredConsole.WriteLine("Login Successful.".DarkGreen());
+                ColoredConsole.WriteLine("Login Successful".DarkGreen());
             }
             catch (Exception ex)
             {
@@ -88,7 +86,8 @@ while (true)
             {
 
                 Console.Clear();
-                ColoredConsole.WriteLine("*********Welcome ToDO List*********".DarkGreen());
+                var currentUser = userService.GetCurrentUser();
+                ColoredConsole.WriteLine($"*********Welcome ToDO List {currentUser.UserName}*********".DarkGreen());
                 ColoredConsole.WriteLine("1. Add Task".DarkBlue());
                 ColoredConsole.WriteLine("2. Update Task".DarkBlue());
                 ColoredConsole.WriteLine("3. Delete Task".DarkBlue());
@@ -96,7 +95,6 @@ while (true)
                 ColoredConsole.WriteLine("5. Search Tasks by Title".DarkBlue());
                 ColoredConsole.WriteLine("6. Change Task State".DarkBlue());
                 ColoredConsole.WriteLine("7. Exit".DarkRed());
-                var currentUser = userService.GetCurrentUser();
 
                 string input = Console.ReadLine();
 
@@ -141,6 +139,11 @@ while (true)
                         string newDescription = Console.ReadLine();
                         ColoredConsole.WriteLine("Enter New TimeToDone (yyyy-MM-dd HH:mm): ".DarkCyan());
                         DateTime newTimeToDone = DateTime.Parse(Console.ReadLine());
+
+                        //ColoredConsole.WriteLine("Enter Day (1-30): ".DarkCyan());
+                        //int day = int.Parse(Console.ReadLine());
+                        //DateTime newTimeToDone = new DateTime(2024,11,day);
+
                         ColoredConsole.WriteLine("Enter New Task Order: ".DarkCyan());
                         int newOrder = int.Parse(Console.ReadLine());
                         try
@@ -177,7 +180,7 @@ while (true)
                         break;
 
                     case "4":
-                        ColoredConsole.WriteLine("All Tasks: ".DarkGreen());
+                        ColoredConsole.WriteLine($"All Tasks {currentUser.UserName}: ".DarkGreen());
                         var tasks = taskService.GetAllTasks(currentUser.Id);
                         var table = ConsoleTable.From<Task>(tasks);
                         Console.ForegroundColor = ConsoleColor.Cyan;
@@ -228,7 +231,7 @@ while (true)
                             Console.ReadKey();
                             break;
                         }
-                        ColoredConsole.WriteLine("Enter new state (1 = Pending, 2 = Done, 3 = Cancelled) : ".DarkGreen());
+                        ColoredConsole.WriteLine("Enter new state (1=Pending , 2=Done , 3=Cancelled) : ".DarkGreen());
                         int newState = int.Parse(Console.ReadLine());
 
 

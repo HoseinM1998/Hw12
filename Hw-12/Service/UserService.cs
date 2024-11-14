@@ -14,9 +14,9 @@ namespace Hw_12.Service
     public class UserService
     {
         private readonly UserRepository _userRepository;
-        public UserService(UserRepository userRepository)
+        public UserService()
         {
-            _userRepository = userRepository;
+            _userRepository = new UserRepository();
         }
         private User _currentUser;
 

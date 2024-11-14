@@ -1,46 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\",
+  "WorkspaceRootPath": "D:\\Hw-12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\configuration\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\configuration\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\entities\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\entities\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\contains\\itask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\contains\\itask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\contains\\itask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\enums\\enumstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\enums\\enumstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\migrations\\taskdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\migrations\\taskdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\entities\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\entities\\progressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|c:\\users\\hmosl\\source\\repos\\hw-12\\hw-12\\migrations\\20241110214158_hw12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\migrations\\20241110214158_hw12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\migrations\\20241114060712_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\migrations\\20241114060712_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\configuration\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\configuration\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\enums\\enumstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\enums\\enumstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\contains\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\contains\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|d:\\hw-12\\hw-12\\migrations\\20241114070855_aduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FF678A-565E-4D6E-A52C-63C8F5C5E470}|Hw-12\\Hw-12.csproj|solutionrelative:hw-12\\migrations\\20241114070855_aduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 298,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,47 +86,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TaskDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Migrations\\TaskDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Hw-12\\Migrations\\TaskDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Migrations\\TaskDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Hw-12\\Migrations\\TaskDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "20241114070855_aduser.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Migrations\\20241114070855_aduser.cs",
+              "RelativeDocumentMoniker": "Hw-12\\Migrations\\20241114070855_aduser.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Migrations\\20241114070855_aduser.cs",
+              "RelativeToolTip": "Hw-12\\Migrations\\20241114070855_aduser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T16:49:36.115Z"
+              "WhenOpened": "2024-11-14T07:08:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Hw-12\\Service\\UserService.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Service\\UserService.cs",
+              "RelativeToolTip": "Hw-12\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:19:16.228Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "20241110214158_Hw12.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Migrations\\20241110214158_Hw12.cs",
-              "RelativeDocumentMoniker": "Hw-12\\Migrations\\20241110214158_Hw12.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Migrations\\20241110214158_Hw12.cs",
-              "RelativeToolTip": "Hw-12\\Migrations\\20241110214158_Hw12.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "20241114060712_adduser.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Migrations\\20241114060712_adduser.cs",
+              "RelativeDocumentMoniker": "Hw-12\\Migrations\\20241114060712_adduser.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Migrations\\20241114060712_adduser.cs",
+              "RelativeToolTip": "Hw-12\\Migrations\\20241114060712_adduser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T21:41:58.962Z"
+              "WhenOpened": "2024-11-14T06:07:13.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Hw-12\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Hw-12\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T05:53:12.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Contains\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Hw-12\\Contains\\IUserRepository.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Contains\\IUserRepository.cs",
+              "RelativeToolTip": "Hw-12\\Contains\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T05:52:14.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Hw-12\\Entities\\User.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Entities\\User.cs",
+              "RelativeToolTip": "Hw-12\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T05:45:32.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Entities\\Task.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Entities\\Task.cs",
               "RelativeDocumentMoniker": "Hw-12\\Entities\\Task.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Entities\\Task.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Entities\\Task.cs",
               "RelativeToolTip": "Hw-12\\Entities\\Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:19:02.564Z"
+              "WhenOpened": "2024-11-10T19:19:02.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "EnumState.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Enums\\EnumState.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Enums\\EnumState.cs",
               "RelativeDocumentMoniker": "Hw-12\\Enums\\EnumState.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Enums\\EnumState.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Enums\\EnumState.cs",
               "RelativeToolTip": "Hw-12\\Enums\\EnumState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,77 +186,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "TaskDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Configuration\\TaskDbContext.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Configuration\\TaskDbContext.cs",
               "RelativeDocumentMoniker": "Hw-12\\Configuration\\TaskDbContext.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Configuration\\TaskDbContext.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Configuration\\TaskDbContext.cs",
               "RelativeToolTip": "Hw-12\\Configuration\\TaskDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:18:23.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T19:18:23.699Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ITask.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Contains\\ITask.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Contains\\ITask.cs",
               "RelativeDocumentMoniker": "Hw-12\\Contains\\ITask.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Contains\\ITask.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Contains\\ITask.cs",
               "RelativeToolTip": "Hw-12\\Contains\\ITask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:18:53.462Z"
+              "WhenOpened": "2024-11-10T19:18:53.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Hw-12\\Repositories\\TaskRepository.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Hw-12\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:19:40.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Repositories\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "Hw-12\\Repositories\\TaskRepository.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Repositories\\TaskRepository.cs",
-              "RelativeToolTip": "Hw-12\\Repositories\\TaskRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:19:40.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Service\\TaskService.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Service\\TaskService.cs",
               "RelativeDocumentMoniker": "Hw-12\\Service\\TaskService.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Service\\TaskService.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Service\\TaskService.cs",
               "RelativeToolTip": "Hw-12\\Service\\TaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T19:19:54.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ProgressBar.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Entities\\ProgressBar.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Entities\\ProgressBar.cs",
               "RelativeDocumentMoniker": "Hw-12\\Entities\\ProgressBar.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Entities\\ProgressBar.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Entities\\ProgressBar.cs",
               "RelativeToolTip": "Hw-12\\Entities\\ProgressBar.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:20:20.673Z"
+              "WhenOpened": "2024-11-10T19:20:20.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Program.cs",
+              "DocumentMoniker": "D:\\Hw-12\\Hw-12\\Program.cs",
               "RelativeDocumentMoniker": "Hw-12\\Program.cs",
-              "ToolTip": "C:\\Users\\hmosl\\source\\repos\\Hw-12\\Hw-12\\Program.cs",
+              "ToolTip": "D:\\Hw-12\\Hw-12\\Program.cs",
               "RelativeToolTip": "Hw-12\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAJoAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAAOkAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T19:12:05.21Z"
+              "WhenOpened": "2024-11-10T19:12:05.21Z",
+              "EditorCaption": ""
             }
           ]
         },

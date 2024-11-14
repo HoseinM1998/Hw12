@@ -14,9 +14,9 @@ namespace Hw_12.Service
     public class TaskService
     {
         private readonly TaskRepository _taskRepository;
-        public TaskService(TaskRepository taskRepository)
+        public TaskService()
         {
-            _taskRepository = taskRepository;
+            _taskRepository = new TaskRepository();
         }
 
         public void AddTask(string title, string description, DateTime timeToDone, int order, int userId) 
